@@ -1,4 +1,4 @@
-setup.py
+
 import os
 
 from setuptools import setup, find_packages
@@ -30,7 +30,7 @@ tests_require = [
     'tox',
     ]
 
-setup(name='learning_journal',
+setup(name='learning_journal_basic',
       version='0.0',
       description='learning_journal',
       long_description=README + '\n\n' + CHANGES,
